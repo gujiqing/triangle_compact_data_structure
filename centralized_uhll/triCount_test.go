@@ -11,7 +11,6 @@ import (
 
 
 func TestTriCount(t *testing.T) {
-	//uniqEdge, uniqueNode, _ := FileToArray("E:/streaming-dataset/p2p-Gnutella05.txt")
 	uniqEdge, uniqueNode, _ := FileToArray("E:/Work/Datasets/streaming-dataset/p2p-Gnutella05.txt")
 	/* online recording */
 	vhll, _ := NewVHLL(23, 8)
